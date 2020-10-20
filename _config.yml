@@ -1,0 +1,28 @@
+permalink: /:title.html
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+title: ToThePointCoding
+description: Text programming tutorials that gets to the point.
+name: ToThePointCoding
+
+# Conversion
+highlighter: rouge
+

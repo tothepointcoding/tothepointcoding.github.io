@@ -1,0 +1,21 @@
+.current {
+  color: green;
+}
+img{
+  width:100%;
+  height:100%;
+}
+
+main {
+  display: block;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

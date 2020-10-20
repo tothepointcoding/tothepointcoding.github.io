@@ -1,0 +1,12 @@
+---
+layout: default
+title: Home
+---
+<h1>ToThePointCoding</h1>
+<h2> All posts </h2>
+{% for post in site.posts %}
+<a href="{{ post.url }}">{{ post.title }}</a>
+{{post.about}}
+<br>
+{% endfor %}
+
